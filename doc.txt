@@ -1,3 +1,6 @@
 https://www.bobobk.com/258.html
 https://zhuanlan.zhihu.com/p/150132892
 https://blog.csdn.net/u010479969/article/details/88955681
+
+
+http://matthewearl.github.io/2015/07/28/switching-eds-with-python/
