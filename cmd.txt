@@ -12,3 +12,4 @@ python faceswap.py train -A D:\download\faceswap\face_A\ -B D:\download\faceswap
 
 converting a video
 python faceswap.py convert -i ~/faceswap/src/trump/ -o ~/faceswap/converted/ -m ~/faceswap/trump_cage_model/
+python faceswap.py convert -i D:\download\faceswap\test\ -o D:\download\faceswap\result\ -m D:\download\faceswap\models\
