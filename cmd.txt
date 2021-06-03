@@ -3,7 +3,6 @@ python faceswap.py gui
 
 
 
-
 train
 python faceswap.py train -A D:\download\faceswap\face_A\ -B D:\download\faceswap\face_B\ -m D:\download\faceswap\models\ -bs 16 -it 1000000 -s 1000 -ss 25000
 python faceswap.py train -A D:\download\faceswap\face_A\ -B D:\download\faceswap\face_B\ -m D:\download\faceswap\models\ -bs 16 -it 1000000 -s 1000 -ss 25000 -p
