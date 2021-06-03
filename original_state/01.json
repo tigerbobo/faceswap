@@ -1,0 +1,52 @@
+{
+  "name": "original",
+  "sessions": {
+    "1": {
+      "timestamp": 1622701995.7943842,
+      "no_logs": false,
+      "loss_names": [
+        "total",
+        "face_a",
+        "face_b"
+      ],
+      "batchsize": 16,
+      "iterations": 1,
+      "config": {
+        "learning_rate": 5e-05,
+        "epsilon_exponent": -7,
+        "allow_growth": false,
+        "nan_protection": true,
+        "convert_batchsize": 16,
+        "eye_multiplier": 3,
+        "mouth_multiplier": 2
+      }
+    }
+  },
+  "lowest_avg_loss": {
+    "a": 0.41679075360298157,
+    "b": 0.5039401650428772
+  },
+  "iterations": 1,
+  "config": {
+    "centering": "face",
+    "coverage": 68.75,
+    "optimizer": "adam",
+    "learning_rate": 5e-05,
+    "epsilon_exponent": -7,
+    "allow_growth": false,
+    "mixed_precision": false,
+    "nan_protection": true,
+    "convert_batchsize": 16,
+    "loss_function": "ssim",
+    "mask_loss_function": "mse",
+    "l2_reg_term": 100,
+    "eye_multiplier": 3,
+    "mouth_multiplier": 2,
+    "penalized_mask_loss": true,
+    "mask_type": "extended",
+    "mask_blur_kernel": 3,
+    "mask_threshold": 4,
+    "learn_mask": false,
+    "lowmem": false
+  }
+}
