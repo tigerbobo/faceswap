@@ -9,6 +9,9 @@ python faceswap.py train -A D:\download\faceswap\face_A\ -B D:\download\faceswap
 
 
 
-converting a video
+converting
 python faceswap.py convert -i ~/faceswap/src/trump/ -o ~/faceswap/converted/ -m ~/faceswap/trump_cage_model/
 python faceswap.py convert -i D:\download\faceswap\test\ -o D:\download\faceswap\result\ -m D:\download\faceswap\models\
+
+composite vedio
+.\ffmpeg.exe -i D:\download\faceswap\output\05.mp4_%05d.png -pix_fmt yuv420p -c:v libx264 D:\download\faceswap\02.mp4
